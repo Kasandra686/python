@@ -1,5 +1,5 @@
 time = int(input("Введиите время в секундах :"))
 hour = int(time / 60 / 60)
-min = int((time - hour * 60 * 60) / 60)
-sec = time - ((min * 60)+(hour * 60 * 60))
-print(f" {hour} : {min} : {sec}")
+minut = int((time - hour * 60 * 60) / 60)
+sec = time - ((minut * 60) + (hour * 60 * 60))
+print(f" {hour} : {minut} : {sec}")
